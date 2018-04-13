@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Educacion</title>
+</head>
+<body>
+	<header>
+		<svg width="250px" height="200px" viewBox="0 0 200 200">
+			<image width="220px" height="200px" xlink:href="images/logo.svg"> </image>
+		</svg>
+	</header>
+	
+	<h1>HOJA DE VIDA</h1>
+	<h2>Cristhian Recalde</h2>
+	<h3>Ecuador-Esmeraldas</h3>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+
+	<h2>Educación</h2>
+
+	<table border="1" style="width: 35%">
+		<thead>
+			<tr>
+				<th>Anio</th>
+				<th>Institucion</th>
+				<th>Lugar</th>
+				<th>¿Culmino?</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>1998</td>
+				<td>San Jose Obrero</td>
+				<td>Esmeraldas,Ecuador</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2003</td>
+				<td>Domingo Savio</td>
+				<td>Esmeraldas,Ecuador</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2007</td>
+				<td>Sagrado Corazon</td>
+				<td>Esmeraldas,Ecuador</td>
+				<td>Si</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr size="1px">
+
+	<h2>Agregar Educación</h2>
+	<form>
+		<label for="Anio">Año</label>
+		<select name="Anio" >       <!--  Una lista desplegable para el Año.
+		 Esto es una lista desplegable en html -->
+			<option >2018</option>
+			<option >2017</option>
+			<option >2016</option>
+			<option >2015</option>
+			<option >2014</option>
+		</select></br></br>
+		
+		<!-- 	Esto es un input Number con rango
+		 -->	<!-- <input type="Number" min="1950" max="2018"> -->
+	 	<label for="Institucion">Institucion</label>
+	 	<input type="text" id="Institucion" required></br></br>
+	 	<label for="Lugar">Lugar</label>
+		<textarea name="Lugar" cols="30" rows="8"></textarea></br></br>
+		<label for="culmino">¿Culmino?</label>	
+		<input name="culmino" type="radio"><b>Si</b>
+		<input name="culmino" type="radio"><b>No</b></br></br>
+		<input type="submit" value="Enviar">
+	</form>
+
+	<footer>
+	<hr size="5px" color="black" />
+	Copyright © Todos los Derechos Reservados
+	<a href="https://andrezw.marcgrafi.com/" target="_blank">Andres Recalde</a>
+	<ul>
+		<li><strong>Email:</strong>andreezw1021@gmail.com</li>
+		<li><strong>Telefono:</strong>555-444-333</li>
+		<li><strong>Direccion:</strong>Av. 123 Norte Esmeraldas- Ecuador</li>
+	</ul>
+</footer>
+</body>
+</html>
